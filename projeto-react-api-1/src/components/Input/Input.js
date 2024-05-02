@@ -1,13 +1,6 @@
 import style from './Input.module.css'
 
-export default function Input({
-  type,
-  text,
-  name,
-  placeholder,
-  handlerOnChange,
-  value,
-}) 
+function Input({ type, text, name, placeholder, handlerOnChange, value }) 
 
 {
   return (
@@ -24,3 +17,6 @@ export default function Input({
     </div>
   )
 }
+
+
+export default Input;

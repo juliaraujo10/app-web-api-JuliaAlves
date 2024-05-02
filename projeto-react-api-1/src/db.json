@@ -1,45 +1,40 @@
 {
   "books": [
     {
-      "id": "c9d4",
-      "nome_livro": "AS CAVERNAS DO MANO DE Aço",
-      "nome_autor": "ISAAC ASIMOV",
-      "descricao_livro": "ROBOS SAFADOS",
-      "categories": {
+      "id": "5894",
+      "nome_livro": "As Cavernas de Aço",
+      "nome_autor": "Isaac Azimov",
+      "descricao_livro": "Uma obra da série dos robôs",
+      "category": {
         "id": "1",
-        "categories": "ficçao cientifica"
+        "category": "ficçao cientifica"
       }
     },
     {
-      "id": "ce6e",
-      "nome_livro": "teste",
-      "nome_autor": "isac",
-      "descricao_livro": "teste de descrico",
-      "categories": {
-        "id": "2",
-        "categories": "Back-End"
+      "id": "21b3",
+      "nome_livro": "Os sete maridos de Evelyn Hugo",
+      "nome_autor": "Taylor Jenkins Reid",
+      "descricao_livro": "Da chegada a Hollywood no início da década de 1950 à decisão de abandonar o mundo do espetáculo 30 anos depois, incluindo, claro está, os seus sete casamentos, a vida de Evelyn é repleta de ambição desmedida, amizades improváveis e um grande amor proibido.",
+      "category": {
+        "id": "6",
+        "category": "Romance"
       }
     },
     {
-      "id": "1d46",
-      "nome_livro": "teste"
-    },
-    {
-      "id": "436f",
-      "nome_livro": "Roberto"
-    },
-    {
-      "id": "21db",
-      "nome_livro": "Roberto"
-    },
-    {
-      "id": "722c"
+      "id": "3d01",
+      "descricao_livro": "Quando Tate Collins se muda para o apartamento do irmão, em São Francisco, pronta a se dedicar ao mestrado em enfermagem, não imagina estar prestes a conhecer o lado feio do amor. Um relacionamento em que companheirismo e cumplicidade não são prioridades. E o sexo parece ser o único objetivo.",
+      "category": {
+        "id": "6",
+        "category": "Romance"
+      },
+      "nome_livro": "O lado feio do amor",
+      "nome_autor": "Colleen Hoover"
     }
   ],
   "categories": [
     {
       "id": "1",
-      "name": "ficçao cientifica"
+      "name": "Ficção científica"
     },
     {
       "id": "2",
@@ -47,7 +42,7 @@
     },
     {
       "id": "3",
-      "name": "Front end"
+      "name": "Front-End"
     },
     {
       "id": "4",
@@ -55,7 +50,11 @@
     },
     {
       "id": "5",
-      "name": "Computaçao em cloud"
+      "name": "Computação em cloud"
+    },
+    {
+      "id": "6",
+      "name": "Romance"
     }
   ]
 }

@@ -1,12 +1,7 @@
 import style from './Select.module.css'
 
-export default function Select({
-  text,
-  name,
-  options,
-  handlerOnChange,
-  value,
-}) {
+function Select({
+  text, name, options, handlerOnChange, value}) {
   return (
     <div className={style.select_control}>
       <label htmlFor={name}>{text}</label>
@@ -17,7 +12,9 @@ export default function Select({
                     <option 
                         value={option.id} 
                         key={option.id}>
+
                         {option.name}
+                        
                     </option>
                 ))
             } 
@@ -25,3 +22,4 @@ export default function Select({
     </div>
   )
 }
+export default Select;
