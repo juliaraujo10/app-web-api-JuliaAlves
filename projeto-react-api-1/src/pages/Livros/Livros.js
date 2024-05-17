@@ -7,6 +7,8 @@ import CardBook from '../../components/CardBook/CardBook';
 
 import styles from './Livro.module.css'
 
+import { Link } from 'react-router-dom';
+
 function Livros() {
 
   const [books, setBooks] = useState([]);

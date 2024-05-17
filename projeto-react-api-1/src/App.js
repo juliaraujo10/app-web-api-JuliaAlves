@@ -7,6 +7,8 @@ import Container from './components/Container/Container';
 import Home from './pages/Home/Home'
 import Livros from './pages/Livros/Livros'
 import NovoLivro from './pages/NovoLivro/NovoLivro'
+import EditarLivro from './pages/EditarLivro'
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
                 <Route index element={<Home/>}/>
                 <Route path='/novolivro' element={<NovoLivro/>}/>
                 <Route path='/livros' element={<Livros/>}/>
+                <Route path='/editarlivro/:id' element={<EditarLivro/>}/>
               </Route>
           </Routes>
         </Container>
