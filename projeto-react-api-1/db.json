@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "id": "9303",
+      "nome_livro": "O livro que será deletado22",
+      "nome_autor": "O autor23aa",
+      "descricao_livro": "A descriçao é certamente uma ótima escolha",
+      "category": {
+        "id": "categoria_id",
+        "category": "BANCO DE DADOS"
+      }
+    },
+    {
+      "id": "e9d8",
+      "nome_livro": "Sou um livro ",
+      "nome_autor": "LuanEscreveLivro",
+      "descricao_livro": "Escrito por Luan~",
+      "category": {
+        "id": "categoria_id",
+        "category": "ficção científica"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "ficção científica"
+    },
+    {
+      "id": "2",
+      "name": "BACK END"
+    },
+    {
+      "id": "3",
+      "name": "BANCO DE DADOS"
+    },
+    {
+      "id": "4",
+      "name": "FRONT-END"
+    },
+    {
+      "id": "5",
+      "name": "CLOUD COMPUTING"
+    }
+  ]
+}

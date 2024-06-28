@@ -1,0 +1,26 @@
+.home_container{
+    width: 100%;
+    margin-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    background-color: white;
+}
+
+.home_container h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.home_container h1 span{
+    padding: 0 .2em;
+    color: purple;
+}
+
+.home_container img{
+    width: 350px;
+    margin: 2em 0;
+}

@@ -1,0 +1,16 @@
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.item{
+    margin-right: 1em ;
+}
+
+.item a{
+    text-decoration: none;
+}

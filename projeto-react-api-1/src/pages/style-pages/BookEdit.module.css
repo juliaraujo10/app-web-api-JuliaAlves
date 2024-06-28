@@ -1,0 +1,11 @@
+.book_container{
+    width: 100%;
+    margin-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    background-color: white;
+}

@@ -1,0 +1,30 @@
+.book_container{
+
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    background-color: white;
+
+}
+
+.book_container h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.book_container h1 span{
+    color: #7733ff;
+    padding: 0 .2em;
+}
+
+.book_container img{
+
+    width: 350px;
+    margin: 2em 0;
+}
+
+
